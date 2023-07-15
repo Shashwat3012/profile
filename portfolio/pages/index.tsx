@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Projects from "@/components/Projects";
 import ScrollBar from "@/components/ScrollBar";
 import Skills from "@/components/Skills";
+import Main from "@/components/Main";
 import Head from "next/head";
 
 export default function Home() {
@@ -19,7 +20,7 @@ export default function Home() {
       <main className="font-fontFamily w-full h-screen bg-bodyColor text-textLight overflow-x-hidden overflow-y-scroll">
         <Navbar />
         <ScrollBar />
-        <Home />
+        <Main />
         <About />
         <Skills />
         <Experience />
