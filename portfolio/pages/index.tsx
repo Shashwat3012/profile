@@ -18,14 +18,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="font-fontFamily w-full h-screen bg-bodyColor text-textLight overflow-x-hidden overflow-y-scroll">
-        <Navbar />
-        <ScrollBar />
         <Main />
+        {/* <Navbar />
+        <ScrollBar />
         <About />
         <Skills />
         <Experience />
         <Projects />
-        <Contact />
+        <Contact /> */}
       </main>
     </>
   );
